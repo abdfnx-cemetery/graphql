@@ -4,7 +4,7 @@
     "target": "es6",
     "module": "es2020",
     "newLine": "lf",
-	"jsx": "preserve",
+	  "jsx": "preserve",
     "declaration": true,
     "moduleResolution": "node",
     "allowJs": true,
