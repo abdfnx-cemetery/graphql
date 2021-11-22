@@ -2,7 +2,9 @@
   "name": "@restbox/graphql",
   "version": "0.1.0",
   "description": "a CodeMirror language plugin for graphql",
+  "license": "MIT",
   "scripts": {
+	"prepublishOnly": "npm run build",
     "build": "rollup -c"
   },
   "type": "module",
@@ -27,5 +29,8 @@
     "rollup-plugin-dts": "^3.0.2",
     "typescript": "^4.3.4"
   },
-  "license": "MIT"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
 }
